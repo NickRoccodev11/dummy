@@ -1,34 +1,18 @@
-<!-- Incorporate major HTML semantic tags, i.e., header, footer, article, section, and summary.
-Create a main header of what this page will do.
-Add a title for the browser tab.
-Add a heading for each animal type. There are five types of animals.
-Bears
-Ollie
-Mona
-Giraffes
-Frankie
-Coconut
-Lions
-Mella
-Karl
-Monkeys
-Cookie
-Earl
-Banana Pudding
-Alligators
-Wren
-Aspen
-Mika
-Add the names of each animal in a list format.
-Add a description for each animal and use a paragraph, section, or article tag.
-Create a link for each animal that goes to an external fact page of that particular animal so the zookeeper can quickly find out more information. These external pages can link to other outside websites.
-Add a photo for each animal.
-Include appropriate comments so that the code is easier for others to read and understand. -->
-<html>
-<title> Zoo docs</title>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Zoo Animal Descriptions</title>
+</head>
 
 <body>
     <header> This is a page describing animal behavior</header>
+
+<!-- I decided on sections for each animal type, just to have some kind of 
+container for the separate sections -->
+
     <section>
         <h2> Bears</h2>
         <ul>
@@ -36,23 +20,23 @@ Include appropriate comments so that the code is easier for others to read and u
             <li>Mona</li>
         </ul>
         <p>
-             Ollie needs thirty fish per day. He likes belly rubs. <br>
-            Mona is harsh but fair. 
+            Ollie needs thirty fish per day. He likes belly rubs. <br>
+            Mona is harsh but fair.
         </p>
         <img src="img/bear.jpg" alt="a jolly bear" height="180px" width="200px">
-        <a href="https://en.wikipedia.org/wiki/Bear" target="_blank" >More on Bears</a>
+        <a href="https://en.wikipedia.org/wiki/Bear" target="_blank">More on Bears</a>
     </section>
     <section>
         <h2>Giraffes </h2>
         <ul>
             <li> Frankie</li>
             <li> Coconut</li>
-         </ul>
-         <p> 
+        </ul>
+        <p>
             Frankie is a loner, he has his head in the clouds. <br>
             Coconut is a showboat.
-         </p>
-         <img src="img/giraffe.jpeg" alt="a tall boy" height="180px" width="200px">
+        </p>
+        <img src="img/giraffe.jpeg" alt="a tall boy" height="180px" width="200px">
         <a href="https://en.wikipedia.org/wiki/Giraffe" target="_blank">More on Giraffes</a>
     </section>
     <section>
@@ -77,10 +61,11 @@ Include appropriate comments so that the code is easier for others to read and u
         </ul>
         <p>
             I honestly cannot tell Cookie, Earl, and BP apart.<br>
-             They love attention and bananas
+            They love attention and bananas
         </p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Bonnet_macaque_%28Macaca_radiata%29_Photograph_By_Shantanu_Kuveskar.jpg" 
-         alt="a spider monkey"  height="300px" width="200px">
+        <!-- all other images are saved in the img folder, this one  is a link -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Bonnet_macaque_%28Macaca_radiata%29_Photograph_By_Shantanu_Kuveskar.jpg"
+            alt="a spider monkey" height="300px" width="200px">
         <a href="https://en.wikipedia.org/wiki/Monkey" target="_blank"> More on Monkeys</a>
     </section>
     <section>
@@ -99,8 +84,5 @@ Include appropriate comments so that the code is easier for others to read and u
         <a href="https://en.wikipedia.org/wiki/Alligator"> More on Gators</a>
     </section>
 </body>
-
-
-
 
 </html>
